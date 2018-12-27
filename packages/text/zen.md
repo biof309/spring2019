@@ -1,0 +1,96 @@
+---
+title: "Zen"
+output:
+  html_notebook: default
+  html_document:
+    keep_md: yes
+  pdf_document: default
+---
+
+The code below creates a text file called `zen.txt`.
+
+```python
+from this import s
+from codecs import decode
+with open('zen.txt', 'w') as f:
+    f.write(decode(s, "rot-13"))
+```
+
+The standard approach to reading in files, as described in the [Python Tutorial](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
+
+```python
+with open('zen.txt') as f:
+    my_list = [line for line in f]
+print(my_list[0])
+```
+
+```
+## The Zen of Python, by Tim Peters
+```
+
+```python
+with open('zen.txt') as f:
+    my_string = f.readline()
+print(my_string.splitlines()[0])
+```
+
+```
+## The Zen of Python, by Tim Peters
+```
+
+Define and use functions to read in text.
+
+```python
+def read_list(file):
+    with open(file) as f:
+        return [line for line in f]
+my_list = read_list('zen.txt')
+print(my_list[0])
+```
+
+```
+## The Zen of Python, by Tim Peters
+```
+
+```python
+def read_str(file):
+    with open(file) as f:
+        return f.read()
+my_string = read_str('zen.txt')
+print(my_string.splitlines()[0])
+```
+
+```
+## The Zen of Python, by Tim Peters
+```
+
+Create a class to represent text files
+
+```python
+class TextFile:
+    count = 0
+    def __init__(self, file):
+        self.file = file
+    def read(self):
+        with open(self.file) as f:
+            self.string = f.read()
+        TextFile.count += 1
+    def reset(self):
+        del self.string
+        TextFile.count -= 1
+zen = TextFile('zen.txt')
+zen.read()
+print(TextFile.count)
+```
+
+```
+## 1
+```
+
+```python
+print(zen.string.splitlines()[0])
+```
+
+```
+## The Zen of Python, by Tim Peters
+```
