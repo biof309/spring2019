@@ -145,6 +145,7 @@ export EDITOR='nvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias m="make"
 alias v="nvim"
 alias c="calcurse"
 alias r="ranger"
