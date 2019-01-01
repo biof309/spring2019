@@ -118,6 +118,12 @@
         lnc = log --pretty=format:"%h\\ %s\\ [%cn]"
         lu = log -u
         #}}}
+        # push {{{
+        p = push
+        #}}}
+        # pull {{{
+        u = pull
+        #}}}
         # remote commands {{{
         url = remote -v
         #}}}
