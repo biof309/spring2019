@@ -15,7 +15,6 @@ https://pqrs.org/osx/karabiner/
 ### Under Complex modifications > Rules > Add Rule
 
 - Change caps_lock key (rev 2) > Change caps_lock to control if pressed with other keys, to escape if pressed alone.
-- Emacs key bindings (rev 12) > Bash style Emacs key bindings (rev 2)
 - Examples > Change right_command+hjkl to arrow keys
 
 # Mac Terminal 
