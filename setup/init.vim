@@ -363,29 +363,40 @@ set autoread
 
 " Emacs and bash style insert mode shortcuts
 " Delete one character forward; the opposite of <C-h>
-inoremap <C-d> <C-o>x
+inoremap <C-d> <Delete>
+cnoremap <C-d> <Delete>
 " Delete everything forward; the opposite of <C-u>
+" Can't find a way to do this in command mode
 inoremap <C-k> <C-o>D
-" Move to end of the line; like in vim command mode: c_ctrl-e
+" Move to end of the line; already exists in command mode: c_ctrl-e
 inoremap <C-e> <End>
 " Move to start of the line; like in vim command mode: c_ctrl-b
+" To insert previously inserted text use <C-r>.
 inoremap <C-a> <Home>
-" Move to one character forward
+cnoremap <C-a> <Home>
+" Move to one character forward; <c-f> is too useful to remap for : / ?
 inoremap <C-f> <right>
+cnoremap <C-l> <right>
 " Move to one character backward
 inoremap <C-b> <left>
+cnoremap <C-b> <left>
 
 " Alt keys specific to MacOS
 " <a-d> = delete word forward; opposite of <c-w>
 inoremap ∂ <C-o>dw
+cnoremap ∂ <S-Right><C-w>
 " <a-k> = move up; opposite of <a-j>
 inoremap ˚ <up>
+cnoremap ˚ <up>
 " <a-j> = move down; opposite of <a-k>
 inoremap ∆ <down>
+cnoremap ∆ <down>
 " <a-f> = move one word forward; opposite of <a-b>
 inoremap ƒ <C-o>w
+cnoremap ƒ <S-Right>
 " <a-b> = move one word backward; opposite of <a-f>
 inoremap ∫ <C-o>b
+cnoremap ∫ <S-Left>
 
 " Nvim-R mappings
 " Keyboard shortcuts for <- -> and other operators in R specific files

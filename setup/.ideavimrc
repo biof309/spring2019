@@ -123,22 +123,28 @@ nnoremap <Bslash>x :action ReopenClosedTab<CR>
 nnoremap <Bslash><Bslash> :nohlsearch<CR>
 
 " Emacs and bash style insert mode shortcuts
-" The opposite of <C-h>
-inoremap <C-d> <C-o>x
-" The opposite of <C-u>
-inoremap <C-k> <C-o>D
-" <C-o>$ The opposite of <C-a>
+" cnoremap is not working in ideavim
+" Delete one character forward; the opposite of <C-h>; <c-d> starts debugger in ideavim command mode
+inoremap <C-d> <Delete>
+" <c-k> is an IDE shortcut that works everywhere
+" Move to end of the line; already exists in command mode: c_ctrl-e
 inoremap <C-e> <End>
-" <C-o>^ The opposite of <C-e>
+" Move to start of the line; already works in ideavim command mode: same as <c-b>
 inoremap <C-a> <Home>
-" The opposite of <C-b>
+" Move one character forward; <c-f> does nothing in ideavim command mode
 inoremap <C-f> <right>
-" The opposite of <C-f>
+" Move one character backward; <c-b> moves to the start of the line in ideavim command mode
 inoremap <C-b> <left>
 
 " Alt keys specific to MacOS
+" <a-d> = delete word forward; opposite of <c-w>
 inoremap ∂ <C-o>dw
-inoremap ˚ <C-o>k
-inoremap ∆ <C-o>j
+" <a-k> = move up; opposite of <a-j>
+inoremap ˚ <up>
+" <a-j> = move down; opposite of <a-k>
+inoremap ∆ <down>
+" <a-f> = move one word forward; opposite of <a-b>
 inoremap ƒ <C-o>w
+" <a-b> = move one word backward; opposite of <a-f>
 inoremap ∫ <C-o>b
+
