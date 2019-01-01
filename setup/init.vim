@@ -452,7 +452,7 @@ noremap <Leader>gs :Gstatus<CR>
 noremap <Leader>gb :Gblame<CR>
 noremap <Leader>gd :Gvdiff<CR>
 noremap <Leader>gr :Gremove<CR>
-noremap <leader>gg :<c-u>:Gwrite<bar>Gcommit<bar>Gpush<cr>
+noremap <leader>gg :<c-u>:Gwrite<bar>Gcommit<bar>!git push<CR>
 
 " session management
 nnoremap <leader>so :OpenSession<Space>
