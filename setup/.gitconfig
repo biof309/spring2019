@@ -3,6 +3,7 @@
         editor = /usr/local/bin/nvim
         excludesfile = /Users/np/.gitignore_global
         pager=less -x4
+	autocrlf = input
 
     #}}}
     # user {{{
@@ -59,6 +60,7 @@
         #acm = !git add . && git commit -m
         # git acm message without quotes
         acm = "!f() { git add . && git commit -m \"$(echo $@)\"; }; f";
+        acp = !git add --all && [ -z "`git status --porcelain`" ] || git commit && git push
         #}}}
         # alias {{{
         # list all aliases
@@ -157,6 +159,6 @@
     [rebase]
       autosquash = true
     [filter "lfs"]
-    	clean = git-lfs clean %f
-    	smudge = git-lfs smudge %f
-    	required = true
+        clean = git-lfs clean %f
+        smudge = git-lfs smudge %f
+        required = true
