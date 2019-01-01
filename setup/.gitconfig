@@ -59,8 +59,9 @@
         au = !git add -u . && git status
         #acm = !git add . && git commit -m
         # git acm message without quotes
-        acm = "!f() { git add . && git commit -m \"$(echo $@)\"; }; f";
-        acmp = "!f() { git add . && git commit -m \"$(echo $@)\" && git push; }; f";
+        acm = "!f() { git add --all && git commit -m \"$(echo $@)\"; }; f";
+        acmp = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f";
+        camp = "!f() { git commit -am \"$(echo $@)\" && git push; }; f";
         acp = !git add --all && [ -z "`git status --porcelain`" ] || git commit && git push
         #}}}
         # alias {{{
