@@ -12,7 +12,11 @@
 # Install Karabiner-Elements from homepage dmg
 https://pqrs.org/osx/karabiner/
 ### Could also try `brew cask install karabiner-elements` if version is the same
-### Under Complex modifications > Rules > Add Rule (Modifier Keys > Change caps_lock key (rev 2) > Change caps_lock to control if pressed with other keys, to escape if pressed alone.)
+### Under Complex modifications > Rules > Add Rule
+
+- Change caps_lock key (rev 2) > Change caps_lock to control if pressed with other keys, to escape if pressed alone.
+- Emacs key bindings (rev 12) > Bash style Emacs key bindings (rev 2)
+- Examples > Change right_command+hjkl to arrow keys
 
 # Mac Terminal 
 ## Install homebrew (this also installs xcode tools needed for git)
