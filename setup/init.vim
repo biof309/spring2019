@@ -206,7 +206,7 @@ let g:session_command_aliases = 1
 "*****************************************************************************
 syntax on
 set ruler
-set number
+set number relativenumber
 set cursorline
 
 let no_buffers_menu=1
@@ -362,28 +362,29 @@ set autoread
 "*****************************************************************************
 
 " Emacs and bash style insert mode shortcuts
-" The opposite of <C-h>
+" Delete one character forward; the opposite of <C-h>
 inoremap <C-d> <C-o>x
-" The opposite of <C-u>
+" Delete everything forward; the opposite of <C-u>
 inoremap <C-k> <C-o>D
-" <C-o>$ The opposite of <C-a>
+" Move to end of the line; like in vim command mode: c_ctrl-e
 inoremap <C-e> <End>
-" <C-o>^ The opposite of <C-e>
+" Move to start of the line; like in vim command mode: c_ctrl-b
 inoremap <C-a> <Home>
-
-" The opposite of <C-a>
-" inoremap <C-e> <C-o>$
-" The opposite of <C-e>
-" inoremap <C-a> <C-o>^
-" The opposite of <C-b>
+" Move to one character forward
 inoremap <C-f> <right>
-" The opposite of <C-f>
+" Move to one character backward
 inoremap <C-b> <left>
+
 " Alt keys specific to MacOS
+" <a-d> = delete word forward; opposite of <c-w>
 inoremap ∂ <C-o>dw
+" <a-k> = move up; opposite of <a-j>
 inoremap ˚ <up>
+" <a-j> = move down; opposite of <a-k>
 inoremap ∆ <down>
+" <a-f> = move one word forward; opposite of <a-b>
 inoremap ƒ <C-o>w
+" <a-b> = move one word backward; opposite of <a-f>
 inoremap ∫ <C-o>b
 
 " Nvim-R mappings
@@ -447,12 +448,14 @@ noremap <Leader>v :<C-u>vsplit<CR>
 noremap <Leader>ga :Gwrite<CR>
 noremap <Leader>gc :Gcommit<CR>
 noremap <Leader>gp :Gpush<CR>
-noremap <Leader>gl :Gpull<CR>
+noremap <Leader>gu :Gpull<CR>
+noremap <Leader>gl :Glog<CR>
 noremap <Leader>gs :Gstatus<CR>
 noremap <Leader>gb :Gblame<CR>
 noremap <Leader>gd :Gvdiff<CR>
 noremap <Leader>gr :Gremove<CR>
-noremap <leader>gg :<c-u>:Gwrite<bar>Gcommit<bar>!git push<CR>
+noremap <leader>gg :Gwrite<bar>Gcommit<CR>
+
 
 " session management
 nnoremap <leader>so :OpenSession<Space>
