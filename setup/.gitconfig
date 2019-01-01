@@ -60,7 +60,7 @@
         #acm = !git add . && git commit -m
         # git acm message without quotes
         acm = "!f() { git add . && git commit -m \"$(echo $@)\"; }; f";
-        acmp = "!f() { git add . && git commit -m \"$(echo $@)\"; }; f" && git push;
+        acmp = "!f() { git add . && git commit -m \"$(echo $@)\" && git push; }; f";
         acp = !git add --all && [ -z "`git status --porcelain`" ] || git commit && git push
         #}}}
         # alias {{{
