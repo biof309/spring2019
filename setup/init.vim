@@ -78,7 +78,7 @@ Plug 'vim-scripts/CSApprox'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'Raimondi/delimitMate'
 Plug 'majutsushi/tagbar'
-"Plug 'scrooloose/syntastic'
+Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
@@ -266,7 +266,7 @@ endif
 
 " vim-airline
 let g:airline_theme = 'powerlineish'
-"let g:airline#extensions#syntastic#enabled = 1
+let g:airline#extensions#syntastic#enabled = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tagbar#enabled = 1
@@ -374,10 +374,10 @@ inoremap <C-e> <End>
 " To insert previously inserted text use <C-r>.
 inoremap <C-a> <Home>
 cnoremap <C-a> <Home>
-" Move to one character forward; <c-f> is too useful to remap for : / ?
+" Move one character forward; <c-f> is too useful to remap for : / ?
 inoremap <C-f> <right>
 cnoremap <C-l> <right>
-" Move to one character backward
+" Move one character backward
 inoremap <C-b> <left>
 cnoremap <C-b> <left>
 
@@ -517,13 +517,13 @@ let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 let g:UltiSnipsEditSplit="vertical"
 
 " syntastic
-"let g:syntastic_always_populate_loc_list=1
-"let g:syntastic_error_symbol='✗'
-"let g:syntastic_warning_symbol='⚠'
-"let g:syntastic_style_error_symbol = '✗'
-"let g:syntastic_style_warning_symbol = '⚠'
-"let g:syntastic_auto_loc_list=1
-"let g:syntastic_aggregate_errors = 1
+let g:syntastic_always_populate_loc_list=1
+let g:syntastic_error_symbol='✗'
+let g:syntastic_warning_symbol='⚠'
+let g:syntastic_style_error_symbol = '✗'
+let g:syntastic_style_warning_symbol = '⚠'
+let g:syntastic_auto_loc_list=1
+let g:syntastic_aggregate_errors = 1
 
 " Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
@@ -563,10 +563,10 @@ noremap <leader>c :bd<CR>
 nnoremap <silent> <leader><leader> :noh<cr>
 
 "" Switching windows
-noremap <C-j> <C-w>j
-noremap <C-k> <C-w>k
-noremap <C-l> <C-w>l
-noremap <C-h> <C-w>h
+" noremap <C-j> <C-w>j
+" noremap <C-k> <C-w>k
+" noremap <C-l> <C-w>l
+" noremap <C-h> <C-w>h
 
 "" Vmap for maintain Visual Mode after shifting > and <
 vmap < <gv
@@ -604,7 +604,7 @@ let g:jedi#completions_command = "<C-Space>"
 let g:jedi#smart_auto_mappings = 0
 
 " syntastic
-" let g:syntastic_python_checkers=['python', 'flake8']
+let g:syntastic_python_checkers=['python', 'flake8']
 
 " vim-airline
 let g:airline#extensions#virtualenv#enabled = 1
@@ -626,6 +626,8 @@ endif
 "*****************************************************************************
 "" Convenience variables
 "*****************************************************************************
+
+let g:airline_powerline_fonts = 1
 
 " vim-airline
 if !exists('g:airline_symbols')
