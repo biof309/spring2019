@@ -465,7 +465,7 @@ noremap <Leader>gs :Gstatus<CR>
 noremap <Leader>gb :Gblame<CR>
 noremap <Leader>gd :Gvdiff<CR>
 noremap <Leader>gr :Gremove<CR>
-noremap <Leader>gg :!git commit --all && git push
+noremap <Leader>gg :Gwrite<CR>:Gcommit -m "working on %"<CR>:Gpush<CR>
 
 
 " session management
