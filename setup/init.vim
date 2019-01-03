@@ -457,7 +457,7 @@ noremap <Leader>v :<C-u>vsplit<CR>
 
 "" Git
 noremap <Leader>ga :Gwrite<CR>
-noremap <Leader>gc :Gcommit<CR>
+noremap <leader>gc :Gwrite<bar>Gcommit<CR>
 noremap <Leader>gp :Gpush<CR>
 noremap <Leader>gu :Gpull<CR>
 noremap <Leader>gl :Glog<CR>
@@ -465,7 +465,7 @@ noremap <Leader>gs :Gstatus<CR>
 noremap <Leader>gb :Gblame<CR>
 noremap <Leader>gd :Gvdiff<CR>
 noremap <Leader>gr :Gremove<CR>
-noremap <leader>gg :Gwrite<bar>Gcommit<CR>
+noremap <Leader>gg :!git commit --all && git push
 
 
 " session management

@@ -63,6 +63,7 @@
         acmp = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f";
         camp = "!f() { git commit -am \"$(echo $@)\" && git push; }; f";
         acp = !git add --all && [ -z "`git status --porcelain`" ] || git commit && git push
+        cap = ![ -z "`git status --porcelain`" ] || git commit --all && git push
         #}}}
         # alias {{{
         # list all aliases
