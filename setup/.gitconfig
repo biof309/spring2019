@@ -62,8 +62,9 @@
         acm = "!f() { git add --all && git commit -m \"$(echo $@)\"; }; f";
         acmp = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f";
         camp = "!f() { git commit -am \"$(echo $@)\" && git push; }; f";
-        acp = !git add --all && [ -z "`git status --porcelain`" ] || git commit && git push
-        cap = ![ -z "`git status --porcelain`" ] || git commit --all && git push
+        acp = !git add --all && git commit && git push
+        cap = !git commit --all && git push
+        g = !git commit --all --message "edited:$(git status --porcelain | awk '{printf \"%s%s\",(NR>1?\",\":\"\"),$2} END{print \"\"}')"
         #}}}
         # alias {{{
         # list all aliases
