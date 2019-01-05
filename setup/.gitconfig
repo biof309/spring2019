@@ -73,7 +73,8 @@
         #}}}
         # branch {{{
         b = branch
-        bra = branch -ra
+        ba = branch -a
+        br = branch -r
         #}}}
         # checkout {{{
         co = checkout
