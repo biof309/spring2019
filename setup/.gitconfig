@@ -64,8 +64,8 @@
         camp = "!f() { git commit -am \"$(echo $@)\" && git push; }; f";
         acp = !git add --all && git commit && git push
         cap = !git commit --all && git push
-        g = "!f() { git commit -am \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | sed -e 's/A/Added/g' -e 's/M/Modified/g' -e 's/D/Deleted/g')";
-        ga = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | sed 's/??/Added/g' | sed 's/M/Modified/g' | sed 's/D/Deleted/g')";
+        g = "!f() { git commit -am \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | grep '^\\s[ADM]' | sed -e 's/A/added/g' -e 's/D/deleted/g' -e 's/M/modified/g')";
+        ga = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | grep '^\\s[ADM]' | sed -e 's/A/added/g' -e 's/D/deleted/g' -e 's/M/modified/g')";
         ; g = !git commit . --message "$(git status --porcelain | sed 's/?? /Added:/g' | sed 's/M /Modified:/g' | sed 's/D /Deleted:/g')"
         ; g = !git commit --all --message 'modified $(git status --porcelain | awk "{printf \"%s%s\",(NR>1?\",\":\"\"),$2} END{print \"\"}")' && git push
         ; g = !git commit --all --message 'modified:$(git status --porcelain | awk "{printf \"%s%s\",(NR>1?\",\":\"\"),$2} END{print \"\"}")' && git push
