@@ -64,7 +64,8 @@
         camp = "!f() { git commit -am \"$(echo $@)\" && git push; }; f";
         acp = !git add --all && git commit && git push
         cap = !git commit --all && git push
-        g = !git commit . --message "$(git status --porcelain | sed 's/?? /Added:/g' | sed 's/M /Modified:/g' | sed 's/D /Deleted:/g')"
+        g = "!f() { git commit -am \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | sed 's/?? /Added:/g' | sed 's/M /Modified:/g' | sed 's/D /Deleted:/g')"
+        ; g = !git commit . --message "$(git status --porcelain | sed 's/?? /Added:/g' | sed 's/M /Modified:/g' | sed 's/D /Deleted:/g')"
         ; g = !git commit --all --message 'modified $(git status --porcelain | awk "{printf \"%s%s\",(NR>1?\",\":\"\"),$2} END{print \"\"}")' && git push
         ; g = !git commit --all --message 'modified:$(git status --porcelain | awk "{printf \"%s%s\",(NR>1?\",\":\"\"),$2} END{print \"\"}")' && git push
         ; g = !git commit --all --message "modified:$(git status --porcelain | awk '{printf \"%s%s\",(NR>1?\",\":\"\"),$2} END{print \"\"}')" && git push
