@@ -64,8 +64,8 @@
         camp = "!f() { git commit -am \"$(echo $@)\" && git push; }; f";
         acp = !git add --all && git commit && git push
         cap = !git commit --all && git push
-        g = "!f() { git commit -am \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | grep '^\\s*M' | awk '{print $2}')";
-        ga = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | grep '^\\s*[ADM]' | sed -e 's/A/Added/g' -e 's/D/Deleted/g' -e 's/M/Modified/g')";
+        g = "!f() { git commit -am \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | grep '^\\s*A' | awk 'BEGIN{print \"Added:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$(git status --porcelain | grep '^\\s*D' | awk 'BEGIN{print \"Deleted:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$(git status --porcelain | grep '^\\s*M' | awk 'BEGIN{print \"Modified:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')";
+        ga = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | grep '^\\s*A' | awk 'BEGIN{print \"Added:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$(git status --porcelain | grep '^\\s*D' | awk 'BEGIN{print \"Deleted:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$(git status --porcelain | grep '^\\s*M' | awk 'BEGIN{print \"Modified:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')";
         ; g = "!f() { git commit -am \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | grep '^\\s*[ADM]' | sed -e 's/A/Added/g' -e 's/D/Deleted/g' -e 's/M/Modified/g')";
         ; ga = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f" "$(git status --porcelain | grep '^\\s*[ADM]' | sed -e 's/A/Added/g' -e 's/D/Deleted/g' -e 's/M/Modified/g')";
         ; g = !git commit --all --message 'modified $(git status --porcelain | awk "{printf \"%s%s\",(NR>1?\",\":\"\"),$2} END{print \"\"}")' && git push
