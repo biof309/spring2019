@@ -300,7 +300,7 @@ nnoremap <silent> <F2> :NERDTreeFind<CR>
 nnoremap <silent> <F3> :NERDTreeToggle<CR>
 
 " grep.vim
-nnoremap <silent> <leader>f :Rgrep<CR>
+" nnoremap <silent> <leader>r :Rgrep<CR>
 let Grep_Default_Options = '-IR'
 let Grep_Skip_Files = '*.log *.db'
 let Grep_Skip_Dirs = '.git node_modules'
@@ -507,7 +507,30 @@ if executable('rg')
 endif
 
 cnoremap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
+
+" Fuzzy finder (FZF)
+" https://jesseleite.com/posts/2/its-dangerous-to-vim-alone-take-fzf
+nnoremap <silent> <leader>a :Ag<CR>
 nnoremap <silent> <leader>b :Buffers<CR>
+nnoremap <silent> <leader>B :Bcommits<CR>
+nnoremap <silent> <leader>c :Commands<CR>
+nnoremap <silent> <leader>C :Commits<CR>
+nnoremap <silent> <leader>f :Gfiles<CR>
+nnoremap <silent> <leader>F :Files<CR>
+nnoremap <silent> <leader>h :History<CR>
+nnoremap <silent> <leader>H :Helptags<CR>
+nnoremap <silent> <leader>: :History:<CR>
+nnoremap <silent> <leader>/ :History/<CR>
+nnoremap <silent> <leader>? :History?<CR>
+nnoremap <silent> <leader>m :Maps<CR>
+nnoremap <silent> <leader>' :Marks<CR>
+nnoremap <silent> <leader>l :BLines<CR>
+nnoremap <silent> <leader>L :Lines<CR>
+" s is for syntax
+nnoremap <silent> <leader>r :Rg<CR>
+nnoremap <silent> <leader>s :Filetypes<CR>
+nnoremap <silent> <Leader>t :BTags<CR>
+nnoremap <silent> <Leader>T :Tags<CR>
 nnoremap <silent> <leader>z :FZF -m<CR>
 
 " snippets
@@ -598,7 +621,7 @@ let g:jedi#goto_assignments_command = "<leader>a"
 let g:jedi#goto_definitions_command = "<leader>d"
 let g:jedi#documentation_command = "K"
 let g:jedi#usages_command = "<leader>u"
-let g:jedi#rename_command = "<leader>r"
+let g:jedi#rename_command = "<leader>n"
 let g:jedi#show_call_signatures = "0"
 let g:jedi#completions_command = "<C-Space>"
 let g:jedi#smart_auto_mappings = 0
