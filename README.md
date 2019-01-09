@@ -58,7 +58,7 @@ In case of an emergency, please send a DM on [Slack](https://biof309.slack.com) 
 Logistics
 ---------
 
-This is a one-semester course starting on the 13th of September 2019 and finishing on 13th of December 2019.
+This is a one-semester course starting on the 5th of February 2019 and finishing on ??th of May 2019.
 
 **Class Location: Rathskeller (Room B1A199C), Building 60, NIH Bethesda campus**
 
