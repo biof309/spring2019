@@ -447,7 +447,7 @@ vmap <space>e <Plug>RESendSelection
 nmap <space>p <Plug>RPrintObj
 
 "" pandoc plugin
-let g:pandoc#modules#disabled = ["folding"]
+" let g:pandoc#modules#disabled = ["folding"]
 let g:pandoc#syntax#conceal#blacklist = ["codeblock_start", "codeblock_delim"]
 
 
