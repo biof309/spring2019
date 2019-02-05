@@ -60,11 +60,11 @@ Logistics
 
 This is a one-semester course starting on the 5th of February 2019 and finishing on ??th of May 2019.
 
-**Class Location: Rathskeller (Room B1A199C), Building 60, NIH Bethesda campus**
+**Class Location: Room 162, Building 60, NIH Bethesda campus**
 
 Attendance in class is strongly recommended; however, we realize other commitments may occasionally prevent attendance. If you miss a class, please review the materials available at the course [GitHub repository](https://github.com/biof309/spring2019) and keep up with activities and homework.
 
-NEW THIS SEMESTER! We will be piloting REMOTE ATTENDANCE and CLASS RECORDINGS via [GoToMeeting](https://www.gotomeet.me/biof309) and [WebEx](https://cbiit.webex.com/join/skarzynskimw). These two options are largely the same, you can pick whichever platform you prefer. Please do **NOT** use this as excuse to skip class and just watch the recorded lectures! This course is **NOT** a Massive Online Open Course (MOOC), it will feature a great deal of group work. Additionally, forming groups to complete the final project is highly encouraged! Remote attendance will work best if you can meet with classmates to work through exercises together. We will do our best to answers questions in the [GoToMeeting](https://www.gotomeet.me/biof309) and [WebEx](https://cbiit.webex.com/join/skarzynskimw) chat windows during class. We will also try to answer all questions on [Slack](https://biof309.slack.com), but please try to ask your questions during class, if at all possible.
+We will be offering REMOTE ATTENDANCE and CLASS RECORDINGS via [GoToMeeting](https://www.gotomeet.me/biof309) and [WebEx](https://cbiit.webex.com/join/skarzynskimw). These two options are largely the same, you can pick whichever platform you prefer. Please do **NOT** use this as excuse to skip class and just watch the recorded lectures! This course is **NOT** a Massive Online Open Course (MOOC), it will feature a great deal of group work. Additionally, forming groups to complete the final project is highly encouraged! Remote attendance will work best if you can meet with classmates to work through exercises together. We will do our best to answers questions in the [GoToMeeting](https://www.gotomeet.me/biof309) and [WebEx](https://cbiit.webex.com/join/skarzynskimw) chat windows during class. We will also try to answer all questions on [Slack](https://biof309.slack.com), but please try to ask your questions during class, if at all possible.
 
 Important FAES Spring 2019 semester dates:
 - November 19–February 1: Online Registration
@@ -177,56 +177,56 @@ This will take 28-67 hours total to complete, depending on which you choose to d
 
 Please use the schedule below as a guide to which [DataCamp](https://www.datacamp.com) and [PluralSight](https://www.pluralsight.com) chapters/lessons correspond to what is covered in class.
 
-01. DUE ??, 2019 (BEFORE Class)
+01. BEFORE Class 1
     - Install [Anaconda Scientific Python Distribution](https://www.continuum.io/downloads)
     - Install [PyCharm](https://www.jetbrains.com/student)
 
-02. DUE ??, 2019 (BEFORE Class)
+02. BEFORE Class 2
     - [Python Basics](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-1-python-basics)
     - [Python: Getting Started](https://www.pluralsight.com/courses/python-getting-started)
     - [Python Fundamentals](https://www.pluralsight.com/courses/python-fundamentals)
     - Chapters 01-05 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
     - Chapter 02 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 
-03. DUE ??, 2019 (BEFORE Class)
+03. BEFORE Class 3
     - [Python Lists](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-2-python-lists)
     - [Functions and Packages](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-3-functions-and-packages)
     - [Python – Beyond the Basics](https://www.pluralsight.com/courses/python-beyond-basics)
     - Chapter 08 & 13 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
     - Chapter 03 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 
-04. DUE ??, 2019 (BEFORE Class)
+04. BEFORE Class 4
     - [Loops](https://campus.datacamp.com/courses/intermediate-python-for-data-science/loops)
     - [Logic, Control Flow and Filtering](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
     - [The Python Developer's Toolkit](https://www.pluralsight.com/courses/python-developers-toolkit)
     - Chapter 06, 07, & 09 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
-05. DUE ??, 2019 (BEFORE Class)
+05. BEFORE Class 5
     - Biopython TBD
     - Chapter 00-02 in [Biopython-Notebook](https://github.com/tiagoantao/biopython-notebook/tree/master/notebooks)
     - [Unit Testing with Python](https://www.pluralsight.com/courses/unit-testing-python)
 
-06. DUE ??, 2019 (BEFORE Class)
+06. BEFORE Class 6
     - [NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
     - Chapter 02 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
     - Chapter 04 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
     - [Full Stack Web Development with Python (WEB2PY)](https://www.pluralsight.com/courses/full-stack-web-development-python-web2py)
     - [Advanced Python](https://www.pluralsight.com/courses/advanced-python)
 
-07. DUE ??, 2019 (BEFORE Class)
+07. BEFORE Class 7
 	- [Dictionaries & Pandas](https://campus.datacamp.com/courses/intermediate-python-for-data-science/dictionaries-pandas)
 	- Chapter 03 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 	- Chapter 05-12 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 	- [Django Fundamentals](https://www.pluralsight.com/courses/django-fundamentals-update)
 
-08. DUE ??, 2019 (BEFORE Class)
+08. BEFORE Class 8
     - [Getting Started with Machine Learning in Python](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/getting-started-with-python)
     - [Predicting with Decision Trees](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/predicting-with-decision-trees)
     - [Improving your Predictions through Random Forests](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/improving-your-predictions-through-random-forests)
     - Chapter 05 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
     - [Testing Django Applications](https://www.pluralsight.com/courses/testing-django-applications)
 
-09. DUE ??, 2019 (BEFORE Class)
+09. BEFORE Class 9
     - [Introduction to Data Visualization with Python](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
     - [Data Visualization with Seaborn](https://www.datacamp.com/courses/data-visualization-with-seaborn)
     - Chapter 04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
