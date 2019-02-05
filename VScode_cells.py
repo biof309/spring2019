@@ -1,4 +1,4 @@
-# %% plot
+# %% Plot
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
@@ -19,8 +19,22 @@ plt.show()
 
 
 
-#%% letters
+#%% Letters
 [chr(i+65) for i in range(26)]
 
 
-#%% 
+#%% names: interests dictionary
+d = {
+       'Mike': 'genomics',
+       'Becky': 'physics',
+       'Diane': 'metabolomics'
+       }
+
+#%% Search dictionary for close matches
+import difflib
+def search_dict(query, dictionary, cutoff=0.8):
+       return [key for key, value in dictionary.items() if value in difflib.get_close_matches(query, dictionary.values(), cutoff=cutoff)]
+matches = search_dict('omics', d, cutoff=0.55)
+#%%
+import pathlib
+pathlib.Path('interested_in_.txt').write_text(matches)
