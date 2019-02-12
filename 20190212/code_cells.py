@@ -37,4 +37,8 @@ def search_dict(query, dictionary, cutoff=0.8):
 matches = search_dict('omics', d, cutoff=0.55)
 #%%
 import pathlib
-pathlib.Path('interested_in_.txt').write_text(matches)
+pathlib.Path('interested_in_.txt').write_text('\n'.join(matches))
+
+
+
+#%%
