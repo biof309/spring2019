@@ -135,23 +135,23 @@ Optional Materials
 Schedule
 --------
 
-| #  | Date       | Title                                   | Lead              |
-|----|------------|-----------------------------------------|-------------------|
-| 1  | 2019-02-05 | Integrated Development Environments     | Martin            |
-| 2  | 2019-02-12 | Git and GitHub                          | Martin            |
-| 3  | 2019-02-19 | Python Basics                           | Martin            |
-| 4  | 2019-02-26 | Running Python code                     | Martin            |
-| 5  | 2019-03-05 | Functions, Modules, & Packages + Loops  | Martin            |
-| 6  | 2019-03-12 | Booleans and Conditionals               | Jinping & Michael |
-| 7  | 2019-03-19 | NumPy and Arrays                        | Martin            |
-| 8  | 2019-03-26 | Pandas and DataFrames                   | Jinping & Michael |
-| 9  | 2019-04-02 | Machine Learning                        | Martin            |
-| 10 | 2019-04-09 | Data Visualization                      | Jinping & Michael |
-| 11 | 2019-04-16 | Requested Topics/Final Project Clinic   | All Instructors   |
-| 13 | 2019-04-23 | Student Presentations                   |                   |
-| 12 | 2019-04-30 | Student Presentations                   |                   |
-| 14 | 2019-05-07 | Student Presentations                   |                   |
-| 15 | 2019-05-14 | Student Presentations                   |                   |
+| #  | Date       | Title                                   | Lead              | Webex Recording |
+|----|------------|-----------------------------------------|-------------------|-----------------|
+| 1  | 2019-02-05 | Integrated Development Environments     | Martin            |[Webex 20190205](https://cbiit.webex.com/cbiit/lsr.php?RCID=80b70cd887877e0d80917cfd957f0592) |
+| 2  | 2019-02-12 | Git and GitHub                          | Martin            | |
+| 3  | 2019-02-19 | Python Basics                           | Martin            | |
+| 4  | 2019-02-26 | Running Python code                     | Martin            | |
+| 5  | 2019-03-05 | Functions, Modules, & Packages + Loops  | Martin            | |
+| 6  | 2019-03-12 | Booleans and Conditionals               | Jinping & Michael | |
+| 7  | 2019-03-19 | NumPy and Arrays                        | Martin            | |
+| 8  | 2019-03-26 | Pandas and DataFrames                   | Jinping & Michael | |
+| 9  | 2019-04-02 | Machine Learning                        | Martin            | |
+| 10 | 2019-04-09 | Data Visualization                      | Jinping & Michael | |
+| 11 | 2019-04-16 | Requested Topics/Final Project Clinic   | All Instructors   | |
+| 13 | 2019-04-23 | Student Presentations                   |                   | |
+| 12 | 2019-04-30 | Student Presentations                   |                   | |
+| 14 | 2019-05-07 | Student Presentations                   |                   | |
+| 15 | 2019-05-14 | Student Presentations                   |                   | |
 
 Homework
 --------
