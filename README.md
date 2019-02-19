@@ -19,8 +19,6 @@ Additionally, the [Jupyter Notebooks (`ipynb` files)](https://jupyterlab.readthe
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biof309/spring2019/) 
 
-<a href="http://colab.research.google.com/github/biof309/spring2019/blob/master/index.ipynb"><img src="https://colab.research.google.com/img/colab_favicon_256px.png" width="48"></a>
-
 Instructors
 -----------
 
