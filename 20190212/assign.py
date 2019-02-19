@@ -28,11 +28,6 @@ vals = 'Martin', 'Skarzynski', 1985, 'Warsaw', 'Poland'
 keys = 'firstname', 'lastname', 'birthyear', 'birthcity', 'birthcountry'
 d = dict(zip(keys, vals))
 
-# Add more than one key-value pair to a dictionary at a time
-d['job', 'hobby'] = 'scientist', 'zumba'
-
-nums = 1, 2, 3, 4
-
 # Unpack two tuples into a list
 [*vals, *keys]
 
