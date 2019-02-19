@@ -15,8 +15,9 @@ To interact with the materials in the repo using [JupyterLab](https://jupyterlab
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biof309/spring2019/master)
 
-Additionally, the [Jupyter Notebooks (`ipynb` files)](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html) in this repo can be opened in [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biof309/spring2019/) by clicking the icon below.
+Additionally, the [Jupyter Notebooks (`ipynb` files)](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html) in this repo can be opened in by clicking the icon below.
 
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biof309/spring2019/) 
 
 <a href="http://colab.research.google.com/github/biof309/spring2019/blob/master/index.ipynb"><img src="https://colab.research.google.com/img/colab_favicon_256px.png" width="48"></a>
 
