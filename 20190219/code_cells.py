@@ -25,20 +25,34 @@ plt.show()
 
 #%% names: interests dictionary
 d = {
-       'Mike': 'genomics',
-       'Becky': 'physics',
-       'Diane': 'metabolomics'
-       }
+    'Mike': 'genomics',
+    'Becky': 'physics',
+    'Diane': 'metabolomics'
+}
 
 #%% Search dictionary for close matches
 import difflib
 def search_dict(query, dictionary, cutoff=0.8):
-       return [key for key, value in dictionary.items() if value in difflib.get_close_matches(query, dictionary.values(), cutoff=cutoff)]
+    return [
+    key for key, value
+    in dictionary.items()
+    if value in difflib.get_close_matches(
+           query,
+           dictionary.values(),
+           cutoff=cutoff
+           )
+    ]
+
 matches = search_dict('omics', d, cutoff=0.55)
 #%%
 import pathlib
-pathlib.Path('interested_in_.txt').write_text('\n'.join(matches))
-
+pathlib.Path(
+    'interested_in_.txt'
+).write_text('\n'.join(matches))
 
 
 #%%
+dict(**d, Sam='Hiking')
+
+#%%
+{**d, 'Sam': 'Hiking'}
