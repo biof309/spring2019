@@ -18,6 +18,8 @@
 - Combine dictionaries
 - Git usage in PyCharm
 - Git usage in VScode
+- Markdown
+- HTML slides
 - GitHub Pages
 - GitHub Classroom
 
