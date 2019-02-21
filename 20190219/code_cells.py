@@ -30,6 +30,38 @@ d = {
     'Diane': 'metabolomics'
 }
 
+d2 = dict(
+    Sam='hiking'
+)
+
+# %%
+{**d, **d2}
+
+# %%
+dict(**d, **d2)
+
+# %%
+l1 = [1, 2, 3]
+l2 = list(range(3, 7))
+
+# %%
+[*l1, *l2]
+
+# %%
+d = {}
+
+# %%
+d = dict(zip(l1, l2))
+d
+
+# %%
+list(zip(l1, l2))
+
+# %%
+a, *b = l2
+
+# %%
+a
 #%% Search dictionary for close matches
 import difflib
 def search_dict(query, dictionary, cutoff=0.8):
