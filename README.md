@@ -140,7 +140,7 @@ Schedule
 | 1  | 2019-02-05 | Integrated Development Environments     | Martin            | [WebEx 20190205](https://cbiit.webex.com/cbiit/lsr.php?RCID=80b70cd887877e0d80917cfd957f0592) |
 | 2  | 2019-02-12 | Python Basics                           | Martin            | [WebEx 20190212](https://cbiit.webex.com/cbiit/lsr.php?RCID=80b70cd887877e0d80917cfd957f0592) |
 | 3  | 2019-02-19 | Git and GitHub                          | Martin            | [WebEx 20190219](https://cbiit.webex.com/cbiit/ldr.php?RCID=11727ac504f5f346daca7cc307aa4e2d) |
-| 4  | 2019-02-26 | Running Python code                     | Martin            | |
+| 4  | 2019-02-26 | Running Python code                     | Martin            | [WebEx 20190226](https://cbiit.webex.com/cbiit/ldr.php?RCID=459a04ed9e9eb7e279b5dc02c458376f) |
 | 5  | 2019-03-05 | Functions, Modules, & Packages + Loops  | Martin            | |
 | 6  | 2019-03-12 | Booleans and Conditionals               | Jinping & Michael | |
 | 7  | 2019-03-19 | NumPy and Arrays                        | Martin            | |
