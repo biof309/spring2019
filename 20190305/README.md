@@ -4,23 +4,39 @@
 ## GitHub Pages and HTML slides
 
 ### Review
-- Run code in PyCharm
-- Run code in VScode
-- Keyboard shortcuts in PyCharm
-- Keyboard shortcuts in VScode
-- Activity from previous class
+- Run code (by line or selection)
+    - in PyCharm
+    - in VScode
+- Run files
+    - in PyCharm
+- Import modules
+- Keyboard shortcuts
+    - in PyCharm
+    - in VScode
+- Git usage
+    - in PyCharm
+    - in VScode
+- Git usage in VScode
+- Previous activity
     - Dictionary[name, interest]
     - `difflib` for fuzzy matching
     - `pathlib` for reading/writing files
 
 ### New material
-- VScode LiveShare
-- Combine dictionaries
-- Git usage in PyCharm
-- Git usage in VScode
-- Markdown
-- HTML slides
+- Run files
+    - in VS code
 - GitHub Pages
-- GitHub Classroom
-
-
+- Markdown (`.md`)
+    - versus reStructuredText (`.rst`)
+- HTML slides
+    - Pandoc
+    - Jupyter notebook
+- Functions (in `make_slides.py`)
+    - Type hints
+    - Docstrings
+    - Testing with `pytest`
+    - `sys.argv`
+- New Activity
+    - Make a markdown file to introduce yourself to the class
+    - Use `pypandoc` to create HTML slides
+    - Decide who you might want to work with for the final project

@@ -25,9 +25,11 @@ plt.show()
 
 #%% names: interests dictionary
 d = {
-    'Mike': 'genomics',
-    'Becky': 'physics',
-    'Diane': 'metabolomics'
+    'Martin': 'hiking',
+    'Gustaf': 'jumprope',
+    'Diane': 'metabolomics',
+    'Melissa': 'running',
+    'Munder' : 'Python',
 }
 
 d2 = dict(
@@ -38,8 +40,7 @@ d2 = dict(
 {**d, **d2}
 
 # %%
-dict(**d, **d2)
-
+frozenset((1,))
 # %%
 l1 = [1, 2, 3]
 l2 = list(range(3, 7))
