@@ -1,7 +1,7 @@
-# Plan for 2019-02-19
+# Plan for 2019-03-05
 
 
-## Git and GitHub
+## GitHub Pages and HTML slides
 
 ### Review
 - Run code in PyCharm
@@ -20,6 +20,7 @@
 - Git usage in VScode
 - Markdown
 - HTML slides
+- GitHub Pages
 - GitHub Classroom
 
 
