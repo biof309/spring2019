@@ -145,9 +145,9 @@ Schedule
 | 7  | 2019-03-19 | Booleans and Conditionals               | Jinping & Michael | |
 | 8  | 2019-03-26 | NumPy and Arrays                        | Martin            | |
 | 9  | 2019-03-02 | Pandas and DataFrames                   | Jinping & Michael | |
-| 10 | 2019-04-09 | Machine Learning                        | Martin            | |
-| 11 | 2019-04-16 | Data Visualization                      | Jinping & Michael | |
-| 12 | 2019-04-23 | Requested Topics/Final Project Clinic   | All Instructors   | |
+| 11 | 2019-04-09 | Data Visualization                      | Jinping & Michael | |
+| 10 | 2019-04-16 | Machine Learning                        | Martin & Michael  | |
+| 12 | 2019-04-23 | Requested Topics/Final Project Clinic   | Martin & Michael  | |
 | 13 | 2019-04-30 | Student Presentations                   |                   | |
 | 14 | 2019-04-07 | Student Presentations                   |                   | |
 | 15 | 2019-05-14 | Student Presentations                   |                   | |
