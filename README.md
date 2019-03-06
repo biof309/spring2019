@@ -144,7 +144,7 @@ Schedule
 | 6  | 2019-03-12 | Functions and Loops                     | Martin            | |
 | 7  | 2019-03-19 | Booleans and Conditionals               | Jinping & Michael | |
 | 8  | 2019-03-26 | NumPy and Arrays                        | Martin            | |
-| 9  | 2019-03-02 | Pandas and DataFrames                   | Jinping & Michael | |
+| 9  | 2019-04-02 | Pandas and DataFrames                   | Jinping & Michael | |
 | 11 | 2019-04-09 | Data Visualization                      | Jinping & Michael | |
 | 10 | 2019-04-16 | Machine Learning                        | Martin & Michael  | |
 | 12 | 2019-04-23 | Requested Topics/Final Project Clinic   | Martin & Michael  | |
