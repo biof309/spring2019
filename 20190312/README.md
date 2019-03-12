@@ -27,7 +27,7 @@
 - Jupyter
     - Binder
     - JupyterLab versus classic interface
-    - Slides/RISE
+    - [Slides/RISE](https://github.com/marskar/jupyter-rise)
 - Git branches
 - Testing
     - Testing with `pytest`
