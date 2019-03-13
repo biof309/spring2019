@@ -188,48 +188,47 @@ Please use the schedule below as a guide to which [DataCamp](https://www.datacam
     - Chapters 01-05 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
     - Chapter 02 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 
-03. BEFORE Class 3
+03. BEFORE Class 4
     - [Python Lists](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-2-python-lists)
     - [Functions and Packages](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-3-functions-and-packages)
     - [Python – Beyond the Basics](https://www.pluralsight.com/courses/python-beyond-basics)
     - Chapter 08 & 13 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
     - Chapter 03 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 
-04. BEFORE Class 4
-    - [Loops](https://campus.datacamp.com/courses/intermediate-python-for-data-science/loops)
+04. BEFORE Class 7
     - [Logic, Control Flow and Filtering](https://campus.datacamp.com/courses/intermediate-python-for-data-science/logic-control-flow-and-filtering)
     - [The Python Developer's Toolkit](https://www.pluralsight.com/courses/python-developers-toolkit)
     - Chapter 06, 07, & 09 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
-05. BEFORE Class 5
-    - Biopython TBD
-    - Chapter 00-02 in [Biopython-Notebook](https://github.com/tiagoantao/biopython-notebook/tree/master/notebooks)
-    - [Unit Testing with Python](https://www.pluralsight.com/courses/unit-testing-python)
+05. BEFORE Class 8
+    - [Loops](https://campus.datacamp.com/courses/intermediate-python-for-data-science/loops)
+    - Chapter 10 & 11 in [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
 
-06. BEFORE Class 6
-    - [NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
-    - Chapter 02 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
-    - Chapter 04 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
-    - [Full Stack Web Development with Python (WEB2PY)](https://www.pluralsight.com/courses/full-stack-web-development-python-web2py)
-    - [Advanced Python](https://www.pluralsight.com/courses/advanced-python)
-
-07. BEFORE Class 7
+06. BEFORE Class 9
 	- [Dictionaries & Pandas](https://campus.datacamp.com/courses/intermediate-python-for-data-science/dictionaries-pandas)
 	- Chapter 03 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 	- Chapter 05-12 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
 	- [Django Fundamentals](https://www.pluralsight.com/courses/django-fundamentals-update)
 
-08. BEFORE Class 8
+07. BEFORE Class 10
+    - [Introduction to Data Visualization with Python](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
+    - [Data Visualization with Seaborn](https://www.datacamp.com/courses/data-visualization-with-seaborn)
+    - Chapter 04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+    - [Advanced Python](https://www.pluralsight.com/courses/advanced-python)
+
+08. BEFORE Class 11
+    - [NumPy](https://campus.datacamp.com/courses/intro-to-python-for-data-science/chapter-4-numpy)
+    - Chapter 02 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
+    - Chapter 04 in [Python for Data Analysis](https://github.com/wesm/pydata-book)
+    - [Full Stack Web Development with Python (WEB2PY)](https://www.pluralsight.com/courses/full-stack-web-development-python-web2py)
+
+09. BEFORE Class 12
     - [Getting Started with Machine Learning in Python](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/getting-started-with-python)
     - [Predicting with Decision Trees](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/predicting-with-decision-trees)
     - [Improving your Predictions through Random Forests](https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning/improving-your-predictions-through-random-forests)
     - Chapter 05 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
     - [Testing Django Applications](https://www.pluralsight.com/courses/testing-django-applications)
 
-09. BEFORE Class 9
-    - [Introduction to Data Visualization with Python](https://www.datacamp.com/courses/introduction-to-data-visualization-with-python)
-    - [Data Visualization with Seaborn](https://www.datacamp.com/courses/data-visualization-with-seaborn)
-    - Chapter 04 in [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks)
 
 10. WORK ON FINAL PROJECTS
 Depending on your final project, you might find the following topics useful:
