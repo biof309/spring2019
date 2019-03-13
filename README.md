@@ -136,19 +136,19 @@ Schedule
 --------
 | #  | Date       | Title                                   | Lead              | Webex Recording |
 |----|------------|-----------------------------------------|-------------------|-----------------|
-| 1  | 2019-02-05 | Integrated Development Environments     | Martin            | [WebEx 20190205](https://cbiit.webex.com/cbiit/lsr.php?RCID=80b70cd887877e0d80917cfd957f0592) |
-| 2  | 2019-02-12 | Python Basics                           | Martin            | [WebEx 20190212](https://cbiit.webex.com/cbiit/lsr.php?RCID=80b70cd887877e0d80917cfd957f0592) |
-| 3  | 2019-02-19 | Git and GitHub                          | Martin            | [WebEx 20190219](https://cbiit.webex.com/cbiit/ldr.php?RCID=11727ac504f5f346daca7cc307aa4e2d) |
-| 4  | 2019-02-26 | Import Modules and Run Scripts          | Martin            | [WebEx 20190226](https://cbiit.webex.com/cbiit/ldr.php?RCID=459a04ed9e9eb7e279b5dc02c458376f) |
-| 5  | 2019-03-05 | GitHub Pages and HTML Slides            | Martin            | [WebEx 20190305](https://cbiit.webex.com/cbiit/ldr.php?RCID=fcc75521381bc6d3c8efe36de1485338)|
-| 6  | 2019-03-12 | Functions, type hints, docstrings       | Martin            | [WebEx 20190312](https://cbiit.webex.com/cbiit/ldr.php?RCID=4f108b8cf2cefcc96a392ff0eef97346)|
-| 7  | 2019-03-19 | Booleans and Conditionals               | Jinping & Michael & Nick | |
-| 8  | 2019-03-26 | Loops (& Loop Alternatives)             | Jinping & Michael & Nick (& Martin) | |
-| 9  | 2019-04-02 | Pandas and DataFrames                   | Jinping & Michael & Nick | |
-| 10 | 2019-04-09 | Data Visualization                      | Jinping & Michael & Nick | |
+| 1  | 2019-02-05 | Integrated Development Environments     | Martin            | [20190205](https://cbiit.webex.com/cbiit/lsr.php?RCID=80b70cd887877e0d80917cfd957f0592) |
+| 2  | 2019-02-12 | Python Basics                           | Martin            | [20190212](https://cbiit.webex.com/cbiit/lsr.php?RCID=80b70cd887877e0d80917cfd957f0592) |
+| 3  | 2019-02-19 | Git and GitHub                          | Martin            | [20190219](https://cbiit.webex.com/cbiit/ldr.php?RCID=11727ac504f5f346daca7cc307aa4e2d) |
+| 4  | 2019-02-26 | Import Modules and Run Scripts          | Martin            | [20190226](https://cbiit.webex.com/cbiit/ldr.php?RCID=459a04ed9e9eb7e279b5dc02c458376f) |
+| 5  | 2019-03-05 | GitHub Pages and HTML Slides            | Martin            | [20190305](https://cbiit.webex.com/cbiit/ldr.php?RCID=fcc75521381bc6d3c8efe36de1485338)|
+| 6  | 2019-03-12 | Functions, type hints, docstrings       | Martin            | [20190312](https://cbiit.webex.com/cbiit/ldr.php?RCID=4f108b8cf2cefcc96a392ff0eef97346)|
+| 7  | 2019-03-19 | Booleans and Conditionals               | Jinping, Michael & Nick | |
+| 8  | 2019-03-26 | Loops (& Loop Alternatives)             | Jinping, Michael & Nick (& Martin) | |
+| 9  | 2019-04-02 | Pandas and DataFrames                   | Jinping, Michael & Nick | |
+| 10 | 2019-04-09 | Data Visualization                      | Jinping, Michael & Nick | |
 | 11 | 2019-04-16 | NumPy and Arrays                        | Martin                   | |
 | 12 | 2019-04-23 | Machine Learning                        | Martin                   | |
-| 13 | 2019-04-30 | Requested Topics/Final Project Clinic   | Martin & Michael & Nick  | |
+| 13 | 2019-04-30 | Requested Topics/Final Project Clinic   | Martin, Michael & Nick  | |
 | 14 | 2019-05-07 | Student Presentations                   |                          | |
 | 15 | 2019-05-14 | Student Presentations                   |                          | |
 
