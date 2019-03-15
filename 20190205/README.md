@@ -1,4 +1,4 @@
-# Plan for 2019-02-05
+# The plan for 2019-02-05
 
 ## Integrated Development Environments (IDEs)
 - Make sure Anaconda (and VScode) and PyCharm are installed
