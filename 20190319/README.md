@@ -1,4 +1,4 @@
-# Lesson #6: Loops, Boolean, and Conditionals
+# Lesson #7:Boolean and Conditionals
 ### Jinping Liu & Michael Chambers
 ### 3/19/2018
 
