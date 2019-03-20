@@ -142,7 +142,7 @@ Schedule
 | 4  | 2019-02-26 | Import Modules and Run Scripts          | Martin            | [20190226](https://cbiit.webex.com/cbiit/ldr.php?RCID=459a04ed9e9eb7e279b5dc02c458376f) |
 | 5  | 2019-03-05 | GitHub Pages and HTML Slides            | Martin            | [20190305](https://cbiit.webex.com/cbiit/ldr.php?RCID=fcc75521381bc6d3c8efe36de1485338)|
 | 6  | 2019-03-12 | Functions, type hints, docstrings       | Martin            | [20190312](https://cbiit.webex.com/cbiit/ldr.php?RCID=4f108b8cf2cefcc96a392ff0eef97346)|
-| 7  | 2019-03-19 | Booleans and Conditionals               | Jinping, Michael & Nick | |
+| 7  | 2019-03-19 | Booleans and Conditionals               | Jinping, Michael & Nick | [20190319](https://cbiit.webex.com/cbiit/ldr.php?RCID=91e0c3bdec3fc6fd8d9b4fa000513f0c) |
 | 8  | 2019-03-26 | Loops (& Loop Alternatives)             | Jinping, Michael & Nick (& Martin) | |
 | 9  | 2019-04-02 | Pandas and DataFrames                   | Jinping, Michael & Nick | |
 | 10 | 2019-04-09 | Data Visualization                      | Jinping, Michael & Nick | |
