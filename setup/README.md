@@ -9,15 +9,18 @@
 ## Add Home to to Finder sidebar
 ## Under General > Appearance select 'Use Dark menu bar and Dock' and 'Automatically hide and show the menu bar'
 
-# Install Karabiner-Elements from homepage dmg
+# Karabiner
+## Install Karabiner-Elements from homepage dmg
 https://pqrs.org/osx/karabiner/
-### Could also try `brew cask install karabiner-elements` if version is the same
-### Under Complex modifications > Rules > Add Rule
+#### Could also try `brew cask install karabiner-elements` if version is the same
+## Move `karabiner.json` to `~/.config/karabiner/`
+#### Under Complex modifications > Rules you should see 
 
-- Change caps_lock key (rev 2) > Change caps_lock to control if pressed with other keys, to escape if pressed alone.
-- Examples > Change right_command+hjkl to arrow keys
+##### Change caps_lock to control if pressed with other keys, to escape if pressed alone. (from Change caps_lock key (rev 2))
+##### Delete line backwards with ctrl+w.
+##### Delete word backwards with ctrl+u.
+##### Change right_command+hjkl to arrow keys (from Examples)
 
-Add `karabiner.json` to `~/.config/karabiner/`
 
 # Mac Terminal 
 ## Install homebrew (this also installs xcode tools needed for git)
@@ -82,8 +85,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 # Python and R
 
-## Install Anaconda: this includes vs code text editor
-bash Downloads/Anaconda3-5.2.0-MacOSX-x86_64.sh
+## [Install Anaconda](https://www.anaconda.com/distribution/): this includes vs code text editor
+bash Downloads/Anaconda3-2018.12-MacOSX-x86_64.sh
 
 # Install PyCharm: no command line installer (only on Ubuntu using snap)
 ## Select MacOS X 10.5+ Keymap and add Hide All Tool Windows shortcut: Cmd+0 and Save As...: Cmd+Shift+S
@@ -97,13 +100,13 @@ bash Downloads/Anaconda3-5.2.0-MacOSX-x86_64.sh
 ## Install [R Language Support](http://holgerbrandl.github.io/r4intellij/) plugin
 ## Fix shortcut conflicts under Preferences > Vim emulation: Ctrl+G/M/N/P to IDE
 
-# Install RStudio (this also installs `r-essentials`; RStudio is working for me as part of Anaconda 5.2.0)
+## Install RStudio (this also installs `r-essentials`; RStudio was working for me as part of Anaconda 5.2.0)
 conda install -yc r rstudio
 
-## Copy rstudio `user-settings` file to ~/.rstudio-desktop/monitored/user-settings
+## Copy rstudio `user-settings` file to `~/.rstudio-desktop/monitored/user-settings`
 ## Copy rstudio shortcuts (`rstudio_bindings.json` & `editor_bindings.json`) to `~/.R/rstudio/keybindings/`
 
-# Neovim setup
+## Neovim setup
 brew install ctags
 
 pip install flake8 jedi
