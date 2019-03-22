@@ -17,6 +17,8 @@ https://pqrs.org/osx/karabiner/
 - Change caps_lock key (rev 2) > Change caps_lock to control if pressed with other keys, to escape if pressed alone.
 - Examples > Change right_command+hjkl to arrow keys
 
+Add `karabiner.json` to `~/.config/karabiner/`
+
 # Mac Terminal 
 ## Install homebrew (this also installs xcode tools needed for git)
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -99,6 +101,7 @@ bash Downloads/Anaconda3-5.2.0-MacOSX-x86_64.sh
 conda install -yc r rstudio
 
 ## Copy rstudio `user-settings` file to ~/.rstudio-desktop/monitored/user-settings
+## Copy rstudio shortcuts (`rstudio_bindings.json` & `editor_bindings.json`) to `~/.R/rstudio/keybindings/`
 
 # Neovim setup
 brew install ctags
