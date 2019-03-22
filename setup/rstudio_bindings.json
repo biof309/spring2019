@@ -1,5 +1,5 @@
 {
+    "modifyKeyboardShortcuts" : "Shift+Alt+S",
     "nextTab" : "Shift+Cmd+]",
-    "previousTab" : "Shift+Cmd+[",
-    "restartR" : "Ctrl+Shift+R"
+    "previousTab" : "Shift+Cmd+["
 }
