@@ -11,5 +11,5 @@ You can also start up a jupyter notebook locally with Anaconda Navigator
 or a shell command:
 
 ```shell
-jupyter notebook
+$ jupyter notebook
 ```
