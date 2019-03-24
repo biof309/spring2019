@@ -10,7 +10,7 @@ You can also start up a jupyter notebook locally with Anaconda Navigator
 
 or a shell command:
 
-```sh
+```shell
 $ cd path/to/notebooks/folder
 $ jupyter notebook
 ```
