@@ -144,11 +144,11 @@ Schedule
 | 6  | 2019-03-12 | Functions, type hints, docstrings       | Martin            | [20190312](https://cbiit.webex.com/cbiit/ldr.php?RCID=4f108b8cf2cefcc96a392ff0eef97346)|
 | 7  | 2019-03-19 | Booleans and Conditionals               | Jinping, Michael & Nick | [20190319](https://cbiit.webex.com/cbiit/ldr.php?RCID=91e0c3bdec3fc6fd8d9b4fa000513f0c) |
 | 8  | 2019-03-26 | Loops (& Loop Alternatives)             | Jinping, Michael & Nick (& Martin) | |
-| 9  | 2019-04-02 | Pandas and DataFrames                   | Jinping, Michael & Nick | |
-| 10 | 2019-04-09 | Data Visualization                      | Jinping, Michael & Nick | |
-| 11 | 2019-04-16 | NumPy and Arrays                        | Martin                   | |
-| 12 | 2019-04-23 | Machine Learning                        | Martin                   | |
-| 13 | 2019-04-30 | Requested Topics/Final Project Clinic   | Martin, Michael & Nick  | |
+| 9  | 2019-04-02 | Pandas and DataFrames                   | Jinping, Michael & Nick  | |
+| 10 | 2019-04-09 | Data Visualization                      | Jinping, Michael & Nick  | |
+| 11 | 2019-04-16 | Machine Learning                        | Martin                   | |
+| 12 | 2019-04-23 | Genomics                                | Bari Ballew              | |
+| 13 | 2019-04-30 | Requested Topics/Final Project Clinic   | Martin, Michael & Nick   | |
 | 14 | 2019-05-07 | Student Presentations                   |                          | |
 | 15 | 2019-05-14 | Student Presentations                   |                          | |
 
