@@ -148,7 +148,7 @@ Schedule
 | 10 | 2019-04-09 | Data Visualization                      | Jinping, Michael & Nick  | |
 | 11 | 2019-04-16 | Machine Learning                        | Martin                   | |
 | 12 | 2019-04-23 | Genomics                                | Bari Ballew              | |
-| 13 | 2019-04-30 | Requested Topics/Final Project Clinic   | Martin, Michael & Nick   | |
+| 13 | 2019-04-30 | Object-Oriented Programming             | Nick                     | |
 | 14 | 2019-05-07 | Student Presentations                   |                          | |
 | 15 | 2019-05-14 | Student Presentations                   |                          | |
 
