@@ -1,3 +1,6 @@
 pandas
 xlrd
 matplotlib
+seaborn
+altair
+plotly
