@@ -145,7 +145,7 @@ Schedule
 | 7  | 2019-03-19 | Booleans and Conditionals               | Jinping, Michael & Nick | [20190319](https://cbiit.webex.com/cbiit/ldr.php?RCID=91e0c3bdec3fc6fd8d9b4fa000513f0c) |
 | 8  | 2019-03-26 | Loops (& Loop Alternatives)             | Jinping, Michael & Nick (& Martin) | |
 | 9  | 2019-04-02 | Pandas and DataFrames                   | Jinping, Michael & Nick  | |
-| 10 | 2019-04-09 | Data Visualization                      | Jinping, Michael & Nick  | |
+| 10 | 2019-04-09 | Data Visualization                      | Jinping, Michael & Nick  | [20190409](https://cbiit.webex.com/cbiit/ldr.php?RCID=aed678164ce5462f98e2ec412a8a0d1c) |
 | 11 | 2019-04-16 | Machine Learning                        | Martin                   | |
 | 12 | 2019-04-23 | Genomics                                | Bari Ballew              | |
 | 13 | 2019-04-30 | Object-Oriented Programming             | Nick                     | |
