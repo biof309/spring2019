@@ -21,6 +21,11 @@ https://pqrs.org/osx/karabiner/
 ##### Delete word backwards with ctrl+u.
 ##### Change right_command+hjkl to arrow keys (from Examples)
 
+# Copy over Makefile into Home directory to later...
+## Create and cd into new projects with cookiecutter and GitHub API
+## Clone and cd into projects from github/gitlab/bitbucket
+## Manage a root environment conda environment.yml file
+
 
 # Mac Terminal 
 ## Install homebrew (this also installs xcode tools needed for git)
