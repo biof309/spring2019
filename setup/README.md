@@ -21,9 +21,15 @@ https://pqrs.org/osx/karabiner/
 ##### Delete word backwards with ctrl+u.
 ##### Change right_command+hjkl to arrow keys (from Examples)
 
-# Copy over Makefile into Home directory to later...
-## Create and cd into new projects with cookiecutter and GitHub API
+# WIP: Copy over Makefile into Home directory to later...
+## Create and cd into new projects without cookiecutter
+```shell
+make git PROJECT_NAME=XXXX PROJECT_DESC=XXXX
+```
 ## Clone and cd into projects from github/gitlab/bitbucket
+```shell
+make clone USER=XXXX REPO=XXXX
+```
 ## Manage a root environment conda environment.yml file
 
 

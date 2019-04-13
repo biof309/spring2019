@@ -1,6 +1,8 @@
 # If ENV is pipenv, run export PIPENV_VENV_IN_PROJECT=1
 # Otherwise, .venv will not be in the current project.
 
+PROJECT_NAME = my_project
+PROJECT_DESC = "A short description of the project."
 ENV = virtualenv
 PYTHON = .venv/bin/python3
 LINTER = black
@@ -51,16 +53,21 @@ endif
 docs/_build/html/index.html: $(DOCS) $(TESTS) $(SRC)
 	sphinx-build -M html docs/ docs/_build
 
-git: .git/
+repo: .git/
 
 .git/:
-	curl --user 'marskar' https://api.github.com/user/repos --data '{"name":"main","description":"Run a project, even when zipped."}'
-	test -f README.rst || echo "Main" >> README.rst
+	cd $(PROJECT_NAME)
+	curl --user 'marskar' https://api.github.com/user/repos --data '{"name":"$(PROJECT_NAME)","description":"$(PROJECT_DESC)"}'
+	test -f README.md || echo "$(PROJECT_NAME)" >> README.md
 	git init
 	git add --all
 	git commit --message "First commit"
-	git remote add origin https://github.com/marskar/main.git
+	git remote add origin https://github.com/marskar/$(PROJECT_NAME).git
 	git push --set-upstream origin master
+
+clone:
+	git clone https://github.com/$(USER)/$(REPO)
+	cd $(REPO)
 
 clean:
 	rm -rf build/
