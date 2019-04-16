@@ -5,6 +5,9 @@
 - Click link to site, click link to slides, and copy the url
 - Example: [PyData DC talk](https://marskar.github.io/notebook-war/slides.html)
 
+# Creating interactive presentations on Binder with RISE
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marskar/jupyter-rise/master?filepath=index.ipynb)
+
 # Highlight key points from Python Data Science Handbook by Jake VanderPlas
 - Google Colab [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb)
 - Jupyter Lab [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jakevdp/PythonDataScienceHandbook/master?urlpath=lab/notebooks/Index.ipynb)
