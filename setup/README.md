@@ -97,7 +97,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # Python and R
 
 ## [Install Anaconda](https://www.anaconda.com/distribution/): this includes vs code text editor
-bash Downloads/Anaconda3-2018.12-MacOSX-x86_64.sh
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o install_miniconda.sh
+bash install_miniconda.sh
 
 # Install PyCharm: no command line installer (only on Ubuntu using snap)
 ## Select MacOS X 10.5+ Keymap and add Hide All Tool Windows shortcut: Cmd+0 and Save As...: Cmd+Shift+S
