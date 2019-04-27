@@ -8,8 +8,8 @@
     #}}}
     # user {{{
     [user]
-        email = marskar@gmail.com
-        name = Martin Skarzynski
+	email = marskar@gmail.com
+	name = Martin Skarzynski
     #}}}
 
     # color {{{
@@ -61,11 +61,12 @@
         # git acm message without quotes
         acm = "!f() { git add --all && git commit -m \"$(echo $@)\"; }; f";
         acmp = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f";
+        cam = "!f() { git commit -am \"$(echo $@)\"; }; f";
         camp = "!f() { git commit -am \"$(echo $@)\" && git push; }; f";
         acp = !git add --all && git commit && git push
         cap = !git commit --all && git push
         g = "!f() { git commit -am \"$(echo $@)\" && git push; }; f" "$([ -z \"$(git status --porcelain | grep '^\\s\\?A\\s\\|^AM\\s')\" ] || git status --porcelain | grep '^\\s\\?A\\s\\|^AM\\s' | awk 'BEGIN{print \"Added:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?C\\s')\" ] || git status --porcelain | grep '^\\s\\?C\\s' | awk 'BEGIN{print \"Copied:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?D\\s')\" ] || git status --porcelain | grep '^\\s\\?D\\s' | awk 'BEGIN{print \"Deleted:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?M\\s')\" ] || git status --porcelain | grep '^\\s\\?M\\s' | awk 'BEGIN{print \"Modified:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?R\\s')\" ] || git status --porcelain | grep '^\\s\\?R\\s' | awk 'BEGIN{print \"Renamed:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')";
-    ga = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f" "$([ -z \"$(git status --porcelain | grep '^\\s\\?A\\s\\|^AM\\s\\|^??\\s')\" ] || git status --porcelain | grep '^\\s\\?A\\s\\|^AM\\s\\|^??\\s' | awk 'BEGIN{print \"Added:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?C\\s')\" ] || git status --porcelain | grep '^\\s\\?C\\s' | awk 'BEGIN{print \"Copied:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?D\\s')\" ] || git status --porcelain | grep '^\\s\\?D\\s' | awk 'BEGIN{print \"Deleted:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?M\\s')\" ] || git status --porcelain | grep '^\\s\\?M\\s' | awk 'BEGIN{print \"Modified:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?R\\s')\" ] || git status --porcelain | grep '^\\s\\?R\\s' | awk 'BEGIN{print \"Renamed:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')";
+        ga = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f" "$([ -z \"$(git status --porcelain | grep '^\\s\\?A\\s\\|^AM\\s\\|^??\\s')\" ] || git status --porcelain | grep '^\\s\\?A\\s\\|^AM\\s\\|^??\\s' | awk 'BEGIN{print \"Added:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?C\\s')\" ] || git status --porcelain | grep '^\\s\\?C\\s' | awk 'BEGIN{print \"Copied:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?D\\s')\" ] || git status --porcelain | grep '^\\s\\?D\\s' | awk 'BEGIN{print \"Deleted:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?M\\s')\" ] || git status --porcelain | grep '^\\s\\?M\\s' | awk 'BEGIN{print \"Modified:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?R\\s')\" ] || git status --porcelain | grep '^\\s\\?R\\s' | awk 'BEGIN{print \"Renamed:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')";
         #}}}
         # alias {{{
         # list all aliases
@@ -92,9 +93,8 @@
         c = commit
         cm = commit -m
         ca = commit --all
-        cam = commit --all -m
         caa = commit --all --amend
-        caam = commit --all --amend -m
+        cama = commit --all -m --amend
         amend = commit --amend --reuse-message=HEAD
         amendm = commit --amend -m
         #}}}
@@ -128,6 +128,8 @@
         #}}}
         # pull {{{
         u = pull
+        ur = pull --rebase
+        ure = pull --rebase --edit
         #}}}
         # remote commands {{{
         url = remote -v
@@ -144,6 +146,8 @@
         sl = stash list
         sa = stash apply
         ss = stash save
+        spa = !git stash save && git pull && git stash apply
+        spp = !git stash save && git pull && git stash pop
         # }}}
         # status {{{
         s = status
@@ -172,6 +176,7 @@
     [rebase]
       autosquash = true
     [filter "lfs"]
-        clean = git-lfs clean %f
-        smudge = git-lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
         required = true
+	process = git-lfs filter-process
