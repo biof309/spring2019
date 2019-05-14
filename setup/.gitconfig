@@ -52,17 +52,21 @@
     # alias {{{
     [alias]
         # add {{{
-        a = !git add . && git status
         aa = !git add . && git add -u . && git status
         ac = !git add . && git commit
         ai = add --interactive
         au = !git add -u . && git status
         #acm = !git add . && git commit -m
         # git acm message without quotes
+        a = "!f() { git add \"$(echo $@)\"; }; f";
         acm = "!f() { git add --all && git commit -m \"$(echo $@)\"; }; f";
-        acmp = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f";
+        acam = "!f() { git add --all && git commit --amend -m \"$(echo $@)\"; }; f";
         cam = "!f() { git commit -am \"$(echo $@)\"; }; f";
+        caam = "!f() { git commit --amend -am \"$(echo $@)\"; }; f";
+        acmp = "!f() { git add --all && git commit -m \"$(echo $@)\" && git push; }; f";
+        acamp = "!f() { git add --all && git commit --amend -m \"$(echo $@)\" && git push; }; f";
         camp = "!f() { git commit -am \"$(echo $@)\" && git push; }; f";
+        caamp = "!f() { git commit --amend -am \"$(echo $@)\" && git push; }; f";
         acp = !git add --all && git commit && git push
         cap = !git commit --all && git push
         g = "!f() { git commit -am \"$(echo $@)\" && git push; }; f" "$([ -z \"$(git status --porcelain | grep '^\\s\\?A\\s\\|^AM\\s')\" ] || git status --porcelain | grep '^\\s\\?A\\s\\|^AM\\s' | awk 'BEGIN{print \"Added:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?C\\s')\" ] || git status --porcelain | grep '^\\s\\?C\\s' | awk 'BEGIN{print \"Copied:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?D\\s')\" ] || git status --porcelain | grep '^\\s\\?D\\s' | awk 'BEGIN{print \"Deleted:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?M\\s')\" ] || git status --porcelain | grep '^\\s\\?M\\s' | awk 'BEGIN{print \"Modified:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')" "$([ -z \"$(git status --porcelain | grep '^\\s\\?R\\s')\" ] || git status --porcelain | grep '^\\s\\?R\\s' | awk 'BEGIN{print \"Renamed:\"} {printf \"%s%s\",(NR>1?\", \":\"\"), $2} END{print \"\"}')";
@@ -94,7 +98,6 @@
         cm = commit -m
         ca = commit --all
         caa = commit --all --amend
-        cama = commit --all -m --amend
         amend = commit --amend --reuse-message=HEAD
         amendm = commit --amend -m
         #}}}
@@ -125,6 +128,7 @@
         #}}}
         # push {{{
         p = push
+        pf = push --force
         #}}}
         # pull {{{
         u = pull
